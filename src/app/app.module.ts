@@ -6,14 +6,10 @@ import { SharedModule } from './shared/shared.module';
 import { GifsModule } from './gifs/gifs.module';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './pages/home/home.component';
-import { HomePageComponent } from './pages/home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    HomePageComponent
   ],
   imports: [
     BrowserModule,
