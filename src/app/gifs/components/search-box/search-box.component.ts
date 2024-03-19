@@ -22,7 +22,6 @@ export class SearchBoxComponent  {
   // Funcion para buscar gifs
   searchTag() {
     const newTag = this.tagInput.nativeElement.value;
-    console.log({ newTag });
     this.gifService.searchTag(newTag);
     this.tagInput.nativeElement.value = '';
   }
